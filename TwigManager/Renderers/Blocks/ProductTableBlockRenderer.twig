@@ -1,0 +1,30 @@
+{% extends "TwigManager/Renderers/Blocks/Core/BlockRendererBase.twig" %}
+{# @var Model \rnadvanceemailingwc\TwigManager\Renderers\Blocks\ProductTableBlockRenderer #}
+{% block content %}
+    <table class="rnTable {{ Model.Style }}">
+        <thead>
+            <tr>
+                {% for item in Model.Headers %}
+                    <th>{{ item |raw }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in Model.Items %}
+                <tr>
+                    {% for column in item %}
+                        <td>{{ column |raw }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            {% for subTotal in Model.SubTotals %}
+                <tr>
+                    <th colspan="{{ Model.GetSubTotalSpan }}">{{ subTotal.Label |raw }}</th>
+                    <td>{{ subTotal.Content |raw }}</td>
+                </tr>
+            {% endfor %}
+        </tfoot>
+    </table>
+{% endblock %}

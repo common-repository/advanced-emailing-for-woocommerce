@@ -1,0 +1,221 @@
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+h1{
+    font-weight: 300;
+}
+
+h2{
+    font-size: 18px;
+}
+
+a{
+    font-weight: normal;
+}
+
+
+
+
+table{
+    width: 100%;
+}
+
+.PDFProductTable p{
+    margin:0;
+}
+
+.PDFProductTable td,.PDFProductTable th{
+    border: 1px solid #e5e5e5;
+}
+
+.PDFProductTable{
+    border-collapse: collapse;
+}
+
+.rn-column{
+    padding: 10px;
+}
+
+.rn-block > p:last-child
+{
+    margin: 0;
+}
+
+.wc-item-meta{
+    font-size: small;
+    margin: 1em 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.qrCodeContainer{
+    padding:10px 0;
+}
+
+.qrCodeContainer{
+    display: flex;
+}
+
+.backgroundContainer table{
+    border-collapse: collapse;
+}
+
+.backgroundContainer table td{
+    padding: 0;
+}
+
+.rnIcons .iconItem{
+    display: inline-block;
+    width: auto;
+}
+
+.rnIcons .iconText{
+    text-align: center;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.rnIcons .iconContainer{
+    display: inline-block;
+    width: auto;
+}
+
+.rnIcons .iconContainerColumn{
+    vertical-align: top;
+    padding: 15px;
+}
+
+.rnIcons .iconItem td{
+    text-align: center;
+
+}
+
+.rednaoEmail p{
+    margin: 0;
+    line-height: 1.9em;
+    font-size:inherit;
+}
+
+.backgroundContainer{
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+.backgroundContainer .SectionContainer  {
+    padding: 10px;
+}
+
+.rnTable.simplified > thead > tr > th,.rnTable.simplified > tbody > tr > td,.rnTable.simplified > tfoot > tr > td,.rnTable.simplified > tfoot > tr > th{
+    border:none;
+}
+
+.rnTable.simplified > thead > tr > th{
+    border-bottom: 2px solid #ccc;
+}
+
+.rnTable.simplified > tfoot > tr:first-child > th,.rnTable.simplified > tfoot > tr:first-child > td{
+    border-top: 2px solid #ccc;
+}
+
+.ButtonContainer{
+    text-align: center;
+    width: auto;
+}
+
+.ButtonContainer a{
+    text-align: center;
+}
+
+
+
+.ButtonContainer.ButtonStyle a{
+    padding: 8px 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.imageContainer td{
+    text-align: center;
+}
+
+.SectionContainer{
+    background-color: white;
+}
+
+.ButtonListContainer .Separator{
+    padding:8px
+}
+
+.rnProductRecommendation .ProductItemContainer{
+    display: inline-table;
+    text-align: center;
+}
+
+.rnProductRecommendation .ProductItemContainer > tbody > tr > td{
+    padding: 20px;
+}
+
+.rnProductRecommendation .ProductTitle{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rnProductRecommendation .ProductItem{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rnProductRecommendation .ProductDescription{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rnProductRecommendation .ProductButton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rnProductRecommendation .ProductPrice{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#77a464;
+}
+
+
+.rnProductRecommendation .ProductButton a{
+    padding: 8px 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background-color: black;
+    border-radius: 100px;
+}
+
+
+
+.rnProductRecommendation .ProductColumn{
+    text-align: center;
+}
+
+.rnProductRecommendation .ProductItemContainer.Horizontal .ProductColumn
+{
+    text-align: left;
+}
+
+.rednaoEmail h1{
+    margin:0 !important;
+    font-size: 30px;
+    line-height: 150%;
+}

@@ -1,0 +1,28 @@
+{# @var Model \rnadvanceemailingwc\TwigManager\Renderers\EmailRenderer #}
+{% apply inline_css(source("TwigManager/Renderers/EmailRenderer.css")) %}
+    <html lang="en-US">
+        <head>
+            <title></title>
+            <style type="text/css">
+                {{ Model.Options.ContentOptions.Styles | raw }}
+            </style>
+        </head>
+        <body style="padding: 0;margin: 0;background-color: #f7f7f7;" class="backgroundContainer">
+            <div class="wrapper" style="background-color: #f7f7f7;width: 100%;display: flex;">
+                <center style="width: 100%">
+                    <table class="rednaoEmail" style="margin-top: 30px">
+                        <tr>
+                            <td class="rednaoEmailContent">
+                                <table style="width: 100%">
+                                    <tbody>
+                                    {{ Model.RenderChildren }}
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
+        </body>
+    </html>
+{% endapply %}

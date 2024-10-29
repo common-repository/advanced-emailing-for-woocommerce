@@ -1,0 +1,4 @@
+[
+  {"Id":"Blank","Label":"Blank","Description":"Start from zero with this empty template"},
+  {"Id":"BasicEmail","Label":"Basic Email","Description":"The standard template that woocommerce uses"}
+]

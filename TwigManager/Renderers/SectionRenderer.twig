@@ -1,0 +1,16 @@
+{# @var Model \rnadvanceemailingwc\TwigManager\Renderers\RowRenderer #}
+<tr class="sectionRow">
+  <td>
+    <table style="width: 100%" class="rnSection {{ Model.GetUniqueId }}">
+      <tbody>
+        <tr>
+          <td class="SectionContainer">
+            <table style="width: 100%" >
+              {{ Model.RenderChildren }}
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>

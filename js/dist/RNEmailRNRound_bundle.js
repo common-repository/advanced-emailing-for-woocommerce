@@ -1,0 +1,1 @@
+rndefine("#RNEmailRNRound",["exports","#RNEmailFormulaCore/FRDataRetriever","#RNEmailCore/Sanitizer"],(function(e,t,i){"use strict";function r(e,t,r){return null!=t&&t.IsFRDataSource&&(t=t.GetPrice()),i.Sanitizer.SanitizeNumber(t).toFixed(r)}t.FRDataRetriever.GlobalFunctions.set("RNRound",r),e.RNRound=r,Object.defineProperty(e,"__esModule",{value:!0})}));

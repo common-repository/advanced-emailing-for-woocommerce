@@ -1,0 +1,14 @@
+{# @var Model \rnadvanceemailingwc\TwigManager\Renderers\RowRenderer #}
+<tr>
+  <td>
+    <table style="width: 100%" class="{{ Model.GetUniqueId }}">
+      <tr>
+        <td class="RowContainer">
+          <table style="width: 100%;table-layout: fixed" >
+            {{ Model.RenderChildren }}
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

@@ -1,0 +1,78 @@
+.rootContainer.standardTemplate
+{
+    background-color: #f7f7f7;
+    width: 100%;
+    min-height: 100%;
+    padding:70px 0;
+    box-sizing: content-box;
+}
+
+.standardTemplate .emailContent{
+    background-color:white;
+    border:1px solid #dedede;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+}
+
+.standardTemplate .headerTable{
+    background-color: #96588a;
+    color: #ffffff;
+    border-bottom: 0;
+    font-weight: bold;
+    line-height: 100%;
+    vertical-align: middle;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border-radius: 3px 3px 0 0;
+}
+
+.standardTemplate .headerTable h1{
+    color:white;
+    line-height: 100%;
+}
+
+.standardTemplate .headercell{
+    padding: 36px 48px;
+}
+
+.standardTemplate .contentcell{
+    padding: 48px 48px 32px;
+}
+
+.standardTemplate .OrderLink{
+    margin:0 0 18px !important;
+}
+
+.standardTemplate .OrderTable td,.standardTemplate .OrderTable th{
+    border: 1px solid #e5e5e5;
+    padding:12px;
+}
+
+.standardTemplate .OrderTable td p{
+    margin:0 !important;
+}
+
+.standardTemplate .OrderTable th p{
+    margin:0 !important;
+}
+
+.standardTemplate .billingAddressHeading{
+    color: #96588a;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 130%;
+    margin: 40px 0 18px !important;
+    text-align: left;
+
+}
+
+.tableWrapper >table>tbody>tr>td{
+    border:1px solid #e5e5e5;
+    padding:12px;
+}
+
+.rednaoEmail{
+    margin-top: 30px;
+}
+

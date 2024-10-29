@@ -1,0 +1,1 @@
+rndefine("#RNEmailRNFloor",["exports","#RNEmailFormulaCore/FRDataRetriever","#RNEmailCore/Sanitizer"],(function(e,r,t){"use strict";function o(e,r,o){null!=r&&r.IsFRDataSource&&(r=r.GetPrice());let i=t.Sanitizer.SanitizeNumber(r);return Math.floor(i)}r.FRDataRetriever.GlobalFunctions.set("RNFloor",o),e.RNFloor=o,Object.defineProperty(e,"__esModule",{value:!0})}));

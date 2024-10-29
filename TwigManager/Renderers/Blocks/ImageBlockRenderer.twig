@@ -1,0 +1,17 @@
+{% extends "TwigManager/Renderers/Blocks/Core/BlockRendererBase.twig" %}
+
+{# @var Model \rnadvanceemailingwc\pr\Blocks\QRCodeBlockRenderer #}
+{% block content %}
+    {{ AddStyle('ImageBlock','pr/Blocks/ImageBlockRenderer.css') }}
+    {% if Model.GetURL!='' %}
+        <table class="imageContainer" style="width: 100%">
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top">
+                        <img src="{{ Model.GetURL }}" style="width: {{ Model.GetWidth }}; height: {{Model.GetHeight}}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}
